@@ -11,10 +11,9 @@ public class Jdbc {
 		
 	
 	
-	ResultSet nalla =DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe","","").createStatement().executeQuery("select * from naresh");
-	while(nalla.next()) {
+	 DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe","","");
+	
 	
 	}
 
-}
 }
