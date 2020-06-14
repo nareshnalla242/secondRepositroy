@@ -4,10 +4,7 @@ import java.io.Serializable;
 import javax.persistence.*;
 
 
-/**
- * The persistent class for the ADDRESS database table.
- * 
- */
+
 @Entity
 @Table(name="ADDRESS")
 @NamedQuery(name="Address.findAll", query="SELECT a FROM Address a")
