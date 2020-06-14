@@ -11,7 +11,7 @@ public class Jdbc {
 		
 	
 	
-	 DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe","","");
+	 DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521","abc","abc");
 	
 	
 	}
